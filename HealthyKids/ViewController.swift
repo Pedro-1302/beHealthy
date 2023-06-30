@@ -13,27 +13,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        ///teste
-        ///backup branch
         
-        ///teste2
-        ///
-        /// Teste cassi
-        ///
-        ///
-        ///
-        ///
-        ///
-        ///
-        ///
-        ///kkkkk
-        ///
-        ///
-        ///pedro
-        ///joshua
-        ///
-        
-        // Do any additional setup after loading the view.
+       
     }
 
 

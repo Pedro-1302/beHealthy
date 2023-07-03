@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		480605142A52E56200C4F711 /* FoodGroupSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480605122A52E56200C4F711 /* FoodGroupSelectionViewController.swift */; };
+		480605152A52E56200C4F711 /* FoodGroupSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 480605132A52E56200C4F711 /* FoodGroupSelectionViewController.xib */; };
 		484FD43D2A4DB1BB00CF9F21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484FD43C2A4DB1BB00CF9F21 /* AppDelegate.swift */; };
 		484FD43F2A4DB1BB00CF9F21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484FD43E2A4DB1BB00CF9F21 /* SceneDelegate.swift */; };
 		484FD4412A4DB1BB00CF9F21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484FD4402A4DB1BB00CF9F21 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		480605122A52E56200C4F711 /* FoodGroupSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodGroupSelectionViewController.swift; sourceTree = "<group>"; };
+		480605132A52E56200C4F711 /* FoodGroupSelectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodGroupSelectionViewController.xib; sourceTree = "<group>"; };
 		484FD4392A4DB1BB00CF9F21 /* HealthyKids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthyKids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		484FD43C2A4DB1BB00CF9F21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		484FD43E2A4DB1BB00CF9F21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,7 +62,7 @@
 		484FD43B2A4DB1BB00CF9F21 /* HealthyKids */ = {
 			isa = PBXGroup;
 			children = (
-				484FD4EA2A4F7EBE00CF9F21 /* Model */,
+				485906202A52E0D50017D6C6 /* Model */,
 				484FD4A12A4EFB4200CF9F21 /* View */,
 				484FD4A22A4EFB4E00CF9F21 /* Controller */,
 				484FD4A32A4EFE7900CF9F21 /* Settings */,
@@ -72,8 +76,9 @@
 		484FD4A12A4EFB4200CF9F21 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				484FD44A2A4DB1BC00CF9F21 /* LaunchScreen.storyboard */,
 				484FD4422A4DB1BB00CF9F21 /* Main.storyboard */,
+				484FD44A2A4DB1BC00CF9F21 /* LaunchScreen.storyboard */,
+				480605132A52E56200C4F711 /* FoodGroupSelectionViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -82,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				484FD4402A4DB1BB00CF9F21 /* ViewController.swift */,
+				480605122A52E56200C4F711 /* FoodGroupSelectionViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -95,7 +101,7 @@
 			path = Settings;
 			sourceTree = "<group>";
 		};
-		484FD4EA2A4F7EBE00CF9F21 /* Model */ = {
+		485906202A52E0D50017D6C6 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -163,6 +169,7 @@
 				484FD44C2A4DB1BC00CF9F21 /* LaunchScreen.storyboard in Resources */,
 				484FD4492A4DB1BC00CF9F21 /* Assets.xcassets in Resources */,
 				484FD4442A4DB1BB00CF9F21 /* Main.storyboard in Resources */,
+				480605152A52E56200C4F711 /* FoodGroupSelectionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				480605142A52E56200C4F711 /* FoodGroupSelectionViewController.swift in Sources */,
 				484FD4412A4DB1BB00CF9F21 /* ViewController.swift in Sources */,
 				484FD43D2A4DB1BB00CF9F21 /* AppDelegate.swift in Sources */,
 				484FD4472A4DB1BB00CF9F21 /* HealthyKids.xcdatamodeld in Sources */,

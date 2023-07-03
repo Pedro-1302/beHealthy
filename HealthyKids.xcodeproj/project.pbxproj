@@ -14,6 +14,8 @@
 		484FD4472A4DB1BB00CF9F21 /* HealthyKids.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 484FD4452A4DB1BB00CF9F21 /* HealthyKids.xcdatamodeld */; };
 		484FD4492A4DB1BC00CF9F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484FD4482A4DB1BC00CF9F21 /* Assets.xcassets */; };
 		484FD44C2A4DB1BC00CF9F21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484FD44A2A4DB1BC00CF9F21 /* LaunchScreen.storyboard */; };
+		4863F5D12A52E6F0007F795D /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4863F5CF2A52E6F0007F795D /* RegisterViewController.swift */; };
+		4863F5D22A52E6F0007F795D /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4863F5D02A52E6F0007F795D /* RegisterViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		484FD4482A4DB1BC00CF9F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		484FD44B2A4DB1BC00CF9F21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		484FD44D2A4DB1BC00CF9F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4863F5CF2A52E6F0007F795D /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4863F5D02A52E6F0007F795D /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,7 @@
 			children = (
 				484FD44A2A4DB1BC00CF9F21 /* LaunchScreen.storyboard */,
 				484FD4422A4DB1BB00CF9F21 /* Main.storyboard */,
+				4863F5D02A52E6F0007F795D /* RegisterViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -81,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				484FD4402A4DB1BB00CF9F21 /* ViewController.swift */,
+				4863F5CF2A52E6F0007F795D /* RegisterViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -155,6 +161,7 @@
 				484FD44C2A4DB1BC00CF9F21 /* LaunchScreen.storyboard in Resources */,
 				484FD4492A4DB1BC00CF9F21 /* Assets.xcassets in Resources */,
 				484FD4442A4DB1BB00CF9F21 /* Main.storyboard in Resources */,
+				4863F5D22A52E6F0007F795D /* RegisterViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				484FD4412A4DB1BB00CF9F21 /* ViewController.swift in Sources */,
+				4863F5D12A52E6F0007F795D /* RegisterViewController.swift in Sources */,
 				484FD43D2A4DB1BB00CF9F21 /* AppDelegate.swift in Sources */,
 				484FD4472A4DB1BB00CF9F21 /* HealthyKids.xcdatamodeld in Sources */,
 				484FD43F2A4DB1BB00CF9F21 /* SceneDelegate.swift in Sources */,

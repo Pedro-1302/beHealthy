@@ -58,7 +58,6 @@
 		484FD43B2A4DB1BB00CF9F21 /* HealthyKids */ = {
 			isa = PBXGroup;
 			children = (
-				484FD4EA2A4F7EBE00CF9F21 /* Model */,
 				484FD4A12A4EFB4200CF9F21 /* View */,
 				484FD4A22A4EFB4E00CF9F21 /* Controller */,
 				484FD4A32A4EFE7900CF9F21 /* Settings */,
@@ -93,13 +92,6 @@
 				484FD43C2A4DB1BB00CF9F21 /* AppDelegate.swift */,
 			);
 			path = Settings;
-			sourceTree = "<group>";
-		};
-		484FD4EA2A4F7EBE00CF9F21 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
